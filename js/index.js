@@ -43,7 +43,7 @@ pestyle.justifySelf = "center";
 pesbody.appendChild(pes);
 
 const userlogin = document.createElement('div');
-setAttribute('id', 'userlogin-div');
+userlogin.setAttribute('id', 'userlogin-div');
 userlogin.textContent = 'login';
 const userloginstyle = userlogin.style;
 userloginstyle.textTransform = 'capitalize';
