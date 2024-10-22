@@ -51,7 +51,8 @@ userloginstyle.backgroundColor = '#fff';
 userloginstyle.color = '#000';
 userloginstyle.textAlign = 'center';
 userloginstyle.fontSize = '300%';
-userloginstyle.width = "calc(window.screen.availWidth - 20%)";
+userloginstyle.width = "-webkit-fill-available";
+userloginstyle.marginBottom = "0.26%";
 // userloginstyle.
 pesbody.appendChild(userlogin);
 
@@ -64,6 +65,7 @@ usersignupstyle.backgroundColor = '#fff';
 usersignupstyle.color = '#000';
 usersignupstyle.textAlign = 'center';
 usersignupstyle.fontSize = '300%';
-usersignupstyle.width = 'inherit';
+usersignupstyle.width = '-webkit-fill-available';
+usersignupstyle.marginTop = '0.26%';
 // usersignupstyle.
 pesbody.appendChild(usersignup);
