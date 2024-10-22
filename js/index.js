@@ -39,3 +39,12 @@ pestyle.justifySelf = "center";
 //pes.style.positionY = "50%";
 
 pesbody.appendChild(pes);
+
+const userlogin = document.createElement('div');
+userlogin.setAttribute('id', 'userlogin-div');
+userlogin.textContent = 'login';
+const userloginstyle = userlogin.style;
+userloginstyle.textTransform = 'capitalize';
+userloginstyle.backgroundColor = '#00000050';
+userloginstyle.textAlign = 'center';
+// userloginstyle.
