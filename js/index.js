@@ -60,7 +60,7 @@ usersignup.textContent = 'sign up';
 const usersignupstyle = usersignup.style;
 usersignupstyle.textTransform = 'capitalize';
 usersignupstyle.backgroundColor = '#fff';
-userloginstyle.color = '#000';
+usersignupstyle.color = '#000';
 usersignupstyle.textAlign = 'center';
 usersignupstyle.fontSize = '300%';
 // usersignupstyle.
