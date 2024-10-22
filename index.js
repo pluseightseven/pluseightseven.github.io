@@ -1,11 +1,12 @@
 //document.documentElement.style.backgroundColor = "#000";
-const peshtml = document.querySelector("html");
-peshtml.style.backgroundColor = "#000";
-
-document.body.style.backgroundColor = "#000";
-document.body.style.color = "#fff";
-document.body.style.width = window.screen.availWidth;
-document.body.style.height = window.screen.availHeight;
+//const peshtml = document.querySelector("html");
+//peshtml.style.backgroundColor = "#000";
+const pesbody = document.body;
+const bodystyle = pesbody.style;
+bodystyle.backgroundColor = "#000";
+bodystyle.color = "#fff";
+bodystyle.width = window.screen.availWidth;
+bodystyle.height = window.screen.availHeight;
 document.body.alignSelf ="center";
 document.body.justifySelf = "center";
 document.body.alignContent ="center";
