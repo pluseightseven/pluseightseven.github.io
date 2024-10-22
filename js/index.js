@@ -43,11 +43,21 @@ pestyle.justifySelf = "center";
 pesbody.appendChild(pes);
 
 const userlogin = document.createElement('div');
-userlogin.setAttribute('id', 'userlogin-div');
+setAttribute('id', 'userlogin-div');
 userlogin.textContent = 'login';
 const userloginstyle = userlogin.style;
 userloginstyle.textTransform = 'capitalize';
 userloginstyle.backgroundColor = '#00000050';
 userloginstyle.textAlign = 'center';
 // userloginstyle.
+pesbody.appendChild(userlogin);
+
+const usersignup = document.createElement('div');
+usersignup.setAttribute('id', 'usersignup-div');
+usersignup.textContent = 'login';
+const usersignupstyle = usersignup.style;
+usersignupstyle.textTransform = 'capitalize';
+usersignupstyle.backgroundColor = '#00000050';
+usersignupstyle.textAlign = 'center';
+// usersignupstyle.
 pesbody.appendChild(userlogin);
