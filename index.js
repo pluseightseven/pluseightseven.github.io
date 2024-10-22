@@ -11,4 +11,8 @@ document.body.style.width = window.screen.availWidth;
 document.body.style.height = window.screen.availHeight;
 document.body.alignSelf ="center";
 document.body.justifySelf = "center";
+document.body.alignContent ="center";
+document.body.justifyContent = "center";
+document.body.alignItems ="center";
+document.body.justifyItems = "center";
 document.body.appendChild(pes);
