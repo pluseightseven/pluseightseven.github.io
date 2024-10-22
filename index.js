@@ -6,6 +6,12 @@ pestitle.textContent = "+87";
 pestitle.style.fontFamily = 'ANTON';
 const pes = document.createElement("h1");
 pes.setAttribute("id", "pes");
+pes.addEventListener("mouseover", function(){
+    pes.style.cursor = "pointer";
+});
+pes.addEventListener("click", function(){
+    window.location.href = "/";
+});
 //pes.style.position = "absolute";
 pes.textContent = "+87";
 pes.fontSize = "875%";
