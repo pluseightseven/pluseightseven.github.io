@@ -31,6 +31,7 @@ pes.addEventListener("click", function(){
 });
 //pes.style.position = "absolute";
 pes.textContent = "+87";
+pestyle.fontFamily = 'Noto Sans';
 pestyle.fontSize = "875%";
 pestyle.alignSelf = "center";
 pestyle.justifySelf = "center";
