@@ -47,7 +47,8 @@ userlogin.setAttribute('id', 'userlogin-div');
 userlogin.textContent = 'login';
 const userloginstyle = userlogin.style;
 userloginstyle.textTransform = 'capitalize';
-userloginstyle.backgroundColor = '#00000050';
+userloginstyle.backgroundColor = '#ffffff50';
+userloginstyle.color = '#000';
 userloginstyle.textAlign = 'center';
 userloginstyle.fontSize = '300%';
 // userloginstyle.
@@ -60,5 +61,6 @@ const usersignupstyle = usersignup.style;
 usersignupstyle.textTransform = 'capitalize';
 usersignupstyle.backgroundColor = '#00000050';
 usersignupstyle.textAlign = 'center';
+usersignupstyle.fontSize = '300%';
 // usersignupstyle.
 pesbody.appendChild(usersignup);
