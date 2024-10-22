@@ -33,6 +33,8 @@ pes.addEventListener("click", function(){
 pes.textContent = "+87";
 pestyle.fontFamily = 'Noto Sans';
 pestyle.fontSize = "875%";
+pestyle.color = '#002611';
+pestyle.accentColor = '#00261126';
 pestyle.alignSelf = "center";
 pestyle.justifySelf = "center";
 //pes.style.positionX = "50%";
