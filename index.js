@@ -13,7 +13,6 @@ bodystyle.alignContent ="center";
 bodystyle.justifyContent = "center";
 bodystyle.alignItems ="center";
 bodystyle.justifyItems = "center";
-pesbody.appendChild(pes);
 
 const pestitle = document.querySelector("title");
 pestitle.textContent = "+87";
@@ -34,3 +33,4 @@ pes.style.alignSelf = "center";
 //pes.style.justifySelf = "center";
 //pes.style.positionX = "50%";
 //pes.style.positionY = "50%";
+pesbody.appendChild(pes);
