@@ -55,7 +55,7 @@ pesbody.appendChild(userlogin);
 
 const usersignup = document.createElement('div');
 usersignup.setAttribute('id', 'usersignup-div');
-usersignup.content = 'sign up';
+usersignup.textContent = 'sign up';
 const usersignupstyle = usersignup.style;
 usersignupstyle.textTransform = 'capitalize';
 usersignupstyle.backgroundColor = '#00000050';
