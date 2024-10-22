@@ -47,7 +47,7 @@ userlogin.setAttribute('id', 'userlogin-div');
 userlogin.textContent = 'login';
 const userloginstyle = userlogin.style;
 userloginstyle.textTransform = 'capitalize';
-userloginstyle.backgroundColor = '#ffffff50';
+userloginstyle.backgroundColor = '#fff';
 userloginstyle.color = '#000';
 userloginstyle.textAlign = 'center';
 userloginstyle.fontSize = '300%';
@@ -59,7 +59,8 @@ usersignup.setAttribute('id', 'usersignup-div');
 usersignup.textContent = 'sign up';
 const usersignupstyle = usersignup.style;
 usersignupstyle.textTransform = 'capitalize';
-usersignupstyle.backgroundColor = '#00000050';
+usersignupstyle.backgroundColor = '#fff';
+userloginstyle.color = '#000';
 usersignupstyle.textAlign = 'center';
 usersignupstyle.fontSize = '300%';
 // usersignupstyle.
