@@ -1,4 +1,4 @@
-document.documentElement.style.backgroundColor = "#000";
+//document.documentElement.style.backgroundColor = "#000";
 const peshtml = document.querySelector("html");
 peshtml.style.backgroundColor = "#000";
 const pestitle = document.querySelector("title");
