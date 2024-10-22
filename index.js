@@ -1,3 +1,7 @@
+const peshtml = document.querySelector("html");
+peshtml.style.backgroundColor = "#000";
+const pestitle = document.querySelector("title");
+pestitle.textContent = "+87";
 const pes = document.createElement("h1");
 pes.setAttribute("id", "pes");
 //pes.style.position = "absolute";
