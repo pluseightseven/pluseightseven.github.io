@@ -49,6 +49,7 @@ const userloginstyle = userlogin.style;
 userloginstyle.textTransform = 'capitalize';
 userloginstyle.backgroundColor = '#00000050';
 userloginstyle.textAlign = 'center';
+userloginstyle.fontSize = '300%';
 // userloginstyle.
 pesbody.appendChild(userlogin);
 
