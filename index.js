@@ -3,6 +3,8 @@ pes.setAttribute("id", "pes");
 //pes.style.position = "absolute";
 pes.textContent = "+87";
 pes.fontSize = "875%";
+pes.style.alignSelf = "center";
+pes.style.justifySelf = "center";
 //pes.style.positionX = "50%";
 //pes.style.positionY = "50%";
 document.body.style.backgroundColor = "#000";
