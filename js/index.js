@@ -93,23 +93,23 @@ userloginstyle.marginBottom = "0.26%";
 // userloginstyle.
 pesmain.appendChild(userlogin);
 
-const usersignup = document.createElement('div');
-const usersignupstyle = usersignup.style;
+const usersignup = userlogin.cloneNode();
 usersignup.textContent = 'sign up';
-usersignup.setAttribute('id', 'usersignup-div');
-usersignupstyle.position = "absolute";
-usersignupstyle.textTransform = 'capitalize';
-usersignupstyle.backgroundColor = '#ffffff26';
-usersignupstyle.color = '#000000';
-usersignupstyle.textAlign = 'center';
-usersignupstyle.fontSize = '300%';
-usersignupstyle.width = '400px';
-usersignupstyle.marginTop = '0.26%';
-// usersignupstyle.
 usersignup.addEventListener("click", function() {
     window.location.href = "/signup";
 });
-usersignup.addEventListener("mouseover", function() {
-    usersignupstyle.cursor = "pointer";
-})
+// const usersignupstyle = usersignup.style;
+// usersignup.setAttribute('id', 'usersignup-div');
+// usersignupstyle.position = "absolute";
+// usersignupstyle.textTransform = 'capitalize';
+// usersignupstyle.backgroundColor = '#ffffff26';
+// usersignupstyle.color = '#000000';
+// usersignupstyle.textAlign = 'center';
+// usersignupstyle.fontSize = '300%';
+// usersignupstyle.width = '400px';
+// usersignupstyle.marginTop = '0.26%';
+// // usersignupstyle.
+// usersignup.addEventListener("mouseover", function() {
+//     usersignupstyle.cursor = "pointer";
+// })
 pesmain.appendChild(usersignup);
