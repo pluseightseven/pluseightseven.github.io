@@ -55,8 +55,8 @@ userlogin.setAttribute('id', 'userlogin-div');
 userlogin.textContent = 'login';
 const userloginstyle = userlogin.style;
 userloginstyle.textTransform = 'capitalize';
-userloginstyle.backgroundColor = '#fff';
-userloginstyle.color = '#000';
+userloginstyle.backgroundColor = '#ffffff26';
+userloginstyle.color = '#000000';
 userloginstyle.textAlign = 'center';
 userlogin.addEventListener("click", function() {
     window.location.href = "/login";
@@ -75,7 +75,7 @@ usersignup.setAttribute('id', 'usersignup-div');
 usersignup.textContent = 'sign up';
 const usersignupstyle = usersignup.style;
 usersignupstyle.textTransform = 'capitalize';
-usersignupstyle.backgroundColor = '#ffffff92';
+usersignupstyle.backgroundColor = '#ffffff26';
 usersignupstyle.color = '#000000';
 usersignupstyle.textAlign = 'center';
 usersignupstyle.fontSize = '300%';
@@ -86,6 +86,6 @@ usersignup.addEventListener("click", function() {
     window.location.href = "/signup";
 });
 usersignup.addEventListener("mouseover", function() {
-    userloginstyle.cursor = "pointer";
+    usersignupstyle.cursor = "pointer";
 })
 pesmain.appendChild(usersignup);
