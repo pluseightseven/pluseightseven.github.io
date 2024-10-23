@@ -113,20 +113,3 @@ usersignup.addEventListener("mouseover", function() {
     usersignupstyle.cursor = "pointer";
 })
 pesmain.appendChild(usersignup);
-
-
-
-class NoMadDiv extends HTMLDivElement {
-
-}
-
-const div1 = NoMadDiv;
-div1.setAttributeNS("applydefaults", function() {
-    div1.style.background = "transparent";
-    div1.style.color = "#fff";
-    div1.style.accentColor = "#ffffff26";
-    div1.style.alignSelf = "center";
-    div1.style.justifySelf = "center";
-})
-
-pesmain.appendChild(div1);
