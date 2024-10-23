@@ -1,5 +1,7 @@
-document.documentElement.backgroundColor = "#000";
-document.documentElement.textContent = "welcome to +87";
+const docel = document.documentElement;
+docel.style.backgroundColor = "#000";
+docel.textContent = "welcome to +87";
+docel.style.color = "#fff";
 
 //body
 document.body.backgroundColor = "#000";
@@ -18,6 +20,11 @@ screenstyle.setAttribute("type", "text/css");
 screenstyle.setAttribute("media", "screen");
 document.head.appendChild(screenstyle);
 
+//body
+const pesbody = document.querySelctor("body");
+pesbody.style.backgroundColor = "#000";
+pesbody.margin = 0;
+pesbody.style.fontFamily = "Helvetica Neue, Helvetica, Arial, Sans-serif";
 
 // .container
 const pescontainer = document.createElement('div')
