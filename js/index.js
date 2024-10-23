@@ -1,3 +1,7 @@
+const plus87 = document.createElement("body");
+plus87.textContent = "+87";
+document.documentElement.appendChild(plus87);
+
 document.body.setAttribute("width", screen.availWidth);
 document.body.setAttribute("height", screen.availHeight);
 document.body.style.backgroundColor = "#290000";
@@ -29,6 +33,4 @@ maidi.setAttribute("max-width", "600px");
 
 docma.appendChild(maidi);
 
-const maidih1 = document.createElement("h1");
-maidih1.textContent = "+87";
-maidi.appendChild(maidih1);
+
