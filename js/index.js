@@ -1,6 +1,6 @@
 const docel = document.documentElement;
 docel.style.backgroundColor = "#000";
-docel.textContent = "welcome to +87";
+// docel.textContent = "welcome to +87";
 docel.style.color = "#fff";
 
 // tab title
