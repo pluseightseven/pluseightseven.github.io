@@ -5,6 +5,8 @@ document.body.style.color = "#002600";
 document.body.style.accentColor = "#29260050";
 document.body.style.margin = 0;
 document.body.style.padding = 0;
+document.body.style.alignItems = "center";
+document.body.style.justifyContent = "center";
 
 const docti = document.querySelector('title');
 docti.textContent = '+87 : Plus Eight Seven';
