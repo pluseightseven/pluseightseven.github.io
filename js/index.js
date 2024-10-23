@@ -85,7 +85,7 @@ userloginstyle.border = "solid 8% #fff";
 userloginstyle.borderRadius = "2em";
 // userloginstyle.textAlign = 'center';
 userloginstyle.fontSize = '300%';
-userloginstyle.width = "400px";
+// userloginstyle.width = "400px";
 userloginstyle.marginBottom = "0.26%";
 // userloginstyle.
 userlogin.addEventListener("click", function() {
