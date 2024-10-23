@@ -10,7 +10,9 @@ docti.textContent = '+87 : Plus Eight Seven';
 const docma = document.createElement("main");
 docma.setAttribute("width", screen.availWidth);
 docma.setAttribute("height", screen.availHeight);
-document.body.appendChild(docma)
+docma.style.backgroundColor = "#290260";
+docma.style.color = "#00aaee";
+document.body.appendChild(docma);
 
 const maidi = document.createElement("div");
 // maidi.style.backgroundColor =  "#290260";
