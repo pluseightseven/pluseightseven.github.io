@@ -19,7 +19,7 @@ pesbodystyle.alignContent ="center";
 pesbodystyle.justifyContent = "center";
 pesbodystyle.alignItems ="center";
 pesbodystyle.justifyItems = "center";
-
+pesbodystyle.overflow = 'hidden';
 
 
 const pesmain = document.createElement('main');
