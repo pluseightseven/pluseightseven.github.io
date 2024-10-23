@@ -1,1 +1,0 @@
-document.documentElement.textContent = `welcome to +87`;
