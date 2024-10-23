@@ -24,6 +24,7 @@ pesbodystyle.overflow = 'hidden';
 
 const pesmain = document.createElement('main');
 const pesmainstyle = pesmain.style;
+pesmainstyle.position = "relative";
 pesmainstyle.width = "100%";
 pesmainstyle.height = "100%";
 pesmainstyle.backgroundColor = '#00ff00';
@@ -34,7 +35,7 @@ pesmainstyle.justifyContent = "center";
 pesmainstyle.alignItems = "center";
 pesmainstyle.justifyItems ="center";
 pesmainstyle.backgroundColor = "#0000ff";
-pesmainstyle.padding = "2em";
+// pesmainstyle.padding = "2em";
 pesbody.appendChild(pesmain);
 
 
