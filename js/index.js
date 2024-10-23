@@ -5,11 +5,11 @@ export const baseURI = document.baseURI;
 
 const pestitle = document.querySelector("title");
 pestitle.textContent = "+87";
-pestitle.style.fontFamily = 'poppins';
+pestitle.style.fontFamily = 'cursive';
 
 const pesbody = document.body;
 const pesbodystyle = pesbody.style;
-pesbodystyle.backgroundColor = "#000";
+pesbodystyle.backgroundColor = "#000429";
 pesbodystyle.color = "#fff";
 pesbodystyle.width = window.screen.availWidth;
 pesbodystyle.height = window.screen.availHeight;
