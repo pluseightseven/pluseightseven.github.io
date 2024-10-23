@@ -33,12 +33,12 @@ maidi.appendChild(maidih1);
 // div elements
 const divelems = document.querySelectorAll("div");
 divelems.forEach(element => {
-    element.style.backgroundColor = "#000";
+    // element.style.backgroundColor = "#000";
 })
 
 //body
 const pesbody = document.querySelector("body");
-pesbody.style.backgroundColor = "#000";
+// pesbody.style.backgroundColor = "#000";
 pesbody.margin = 0;
 pesbody.style.fontFamily = "Helvetica Neue, Helvetica, Arial, Sans-serif";
 
@@ -58,7 +58,7 @@ pescontainer.style.textAlign = "center";
 // a
 const alinks = document.querySelectorAll("a");
 alinks.forEach(element => {
-    element.style.color = "4183c4";
+    element.style.color = "#4183c4";
     element.style.textDecoration = "none";
 });
 
