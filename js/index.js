@@ -9,7 +9,7 @@ document.body.style.alignItems = "center";
 document.body.style.justifyContent = "center";
 
 const tabtitlep87 = document.querySelector('title');
-tabtitlep87.textContent = '+87 : Plus Eight Seven';
+tabtitlep87.textContent = '+87 # Plus Eight Seven';
 
 const plus87 = document.createElement("main");
 plus87.textContent = "+87";
