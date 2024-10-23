@@ -1,6 +1,4 @@
-const docel = document.documentElement;
-docel.style.backgroundColor = "#000";
-docel.style.color = "#fff";
+document.body.style.backgroundColor = "#000";
 
 const docti = document.querySelector('title');
 docti.textContent = '+87 : Plus Eight Seven';
