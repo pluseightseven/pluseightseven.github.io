@@ -6,24 +6,24 @@ docel.style.color = "#fff";
 // tab title
 const pestabtitle = document.querySelctor('title');
 pestabtitle.textContent = "+87 &middot; Plus Eight Seven";
+
 // div elements
 const divelems = document.querySelectorAll("div");
 divelems.forEach(element => {
     element.style.backgroundColor = "#000";
 })
 
-// style screen mdeia
-const screenstyle = document.createElement("style")
-screenstyle.setAttribute("type", "text/css");
-screenstyle.setAttribute("media", "screen");
-const peshead = document.querySelector("head");
-peshead.appendChild(screenstyle);
-
 //body
 const pesbody = document.querySelctor("body");
 pesbody.style.backgroundColor = "#000";
 pesbody.margin = 0;
 pesbody.style.fontFamily = "Helvetica Neue, Helvetica, Arial, Sans-serif";
+
+// style screen mdeia
+const screenstyle = document.createElement("style")
+screenstyle.setAttribute("type", "text/css");
+screenstyle.setAttribute("media", "screen");
+pesbody.appendChild(screenstyle);
 
 // .container
 const pescontainer = document.createElement('div')
