@@ -23,6 +23,13 @@ pesbodystyle.justifyItems = "center";
 
 
 const pesmain = document.createElement('main');
+const pesmainstyle = pesmain.style;
+pesmainstyle.alignSelf = 'center';
+pesmainstyle.justifySelf = "center";
+pesmainstyle.alignContent = "center";
+pesmainstyle.justifyContent = "center";
+pesmainstyle.alignItems = "center";
+pesmainstyle.justifyItems ="center";
 pesbody.appendChild(pesmain);
 
 
