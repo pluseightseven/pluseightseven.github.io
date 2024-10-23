@@ -46,7 +46,7 @@ pes.setAttribute("id", "pes");
 pestyle.position = "absolute";
 pestyle.fontFamily = 'Noto Sans';
 pestyle.fontSize = "875%";
-pestyle.color = '#000';
+pestyle.color = '#fff';
 pestyle.accentColor = '#00261126';
 pestyle.alignSelf = "center";
 pestyle.justifySelf = "center";
@@ -57,7 +57,7 @@ pes.addEventListener("mouseover", function(){
 });
 pes.addEventListener("mouseout", function(){
     pestyle.boxShadow = "none";
-    pestyle.color = "#000";
+    pestyle.color = "#fff";
 });
 pes.addEventListener("click", function(){
     window.location.href = "/";
