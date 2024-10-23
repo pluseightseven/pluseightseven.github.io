@@ -3,6 +3,9 @@ document.body.setAttribute("height", screen.availHeight);
 document.body.style.backgroundColor = "#290000";
 document.body.style.color = "#002600";
 document.body.style.accentColor = "#29260050";
+document.body.style.display = "flex";
+document.body.style.alignItems = "center";
+document.body.style.justifyContent = "center";
 
 const docti = document.querySelector('title');
 docti.textContent = '+87 : Plus Eight Seven';
