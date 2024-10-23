@@ -20,6 +20,14 @@ pesbodystyle.justifyContent = "center";
 pesbodystyle.alignItems ="center";
 pesbodystyle.justifyItems = "center";
 
+
+
+const pesmain = document.createElement('main');
+pesbody.appendChild(pesmain);
+
+
+
+
 const pes = document.createElement("h1");
 const pestyle = pes.style;
 pes.setAttribute("id", "pes");
@@ -40,7 +48,7 @@ pestyle.justifySelf = "center";
 //pes.style.positionX = "50%";
 //pes.style.positionY = "50%";
 
-pesbody.appendChild(pes);
+pesmain.appendChild(pes);
 
 const userlogin = document.createElement('div');
 userlogin.setAttribute('id', 'userlogin-div');
@@ -57,18 +65,18 @@ userloginstyle.fontSize = '300%';
 userloginstyle.width = "-webkit-fill-available";
 userloginstyle.marginBottom = "0.26%";
 // userloginstyle.
-pesbody.appendChild(userlogin);
+pesmain.appendChild(userlogin);
 
 const usersignup = document.createElement('div');
 usersignup.setAttribute('id', 'usersignup-div');
 usersignup.textContent = 'sign up';
 const usersignupstyle = usersignup.style;
 usersignupstyle.textTransform = 'capitalize';
-usersignupstyle.backgroundColor = '#fff';
-usersignupstyle.color = '#000';
+usersignupstyle.backgroundColor = '#ffffff92';
+usersignupstyle.color = '#00000026';
 usersignupstyle.textAlign = 'center';
 usersignupstyle.fontSize = '300%';
 usersignupstyle.width = '-webkit-fill-available';
 usersignupstyle.marginTop = '0.26%';
 // usersignupstyle.
-pesbody.appendChild(usersignup);
+pesmain.appendChild(usersignup);
