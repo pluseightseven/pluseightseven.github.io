@@ -12,6 +12,12 @@ document.body.style.padding = 0;
 const docti = document.querySelector('title');
 docti.textContent = '+87 : Plus Eight Seven';
 
+const pesheader = document.createElement("header");
+pesheader.setAttribute("width", "100%");
+pesheader.setAttribute("height", "100%");
+document.body.appendChild(pesheader);
+
+
 const docma = document.createElement("main");
 docma.setAttribute("width", screen.availWidth);
 docma.setAttribute("height", screen.availHeight);
@@ -26,6 +32,11 @@ docma.style.flexDirection = "column";
 docma.style.flexBasis = "auto";
 docma.style.fontSize = "300%";
 document.body.appendChild(docma);
+
+const pesfooter = document.createElement("footer");
+pesfooter.setAttribute("width", "100%");
+pesfooter.setAttribute("height", "100%");
+document.body.appendChild(pesfooter);
 
 const maidi = document.createElement("div");
 // maidi.style.backgroundColor =  "#290260";
