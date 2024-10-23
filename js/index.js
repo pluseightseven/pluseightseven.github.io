@@ -43,10 +43,11 @@ pesbody.appendChild(pesmain);
 
 const pes = document.createElement("h1");
 const pestyle = pes.style;
-pes.textContent = `let text = " Total width/height: ${screen.width} * ${screen.height} \
-    <br> Available width/height: ${screen.availWidth} * ${screen.availHeight} \
-    <br> Color depth: ${screen.colorDepth} \
-    <br> Color resolution: ${screen.pixelDepth}`;
+pes.textContent = `+87`;
+// `let text = " Total width/height: ${screen.width} * ${screen.height} \
+//     <br> Available width/height: ${screen.availWidth} * ${screen.availHeight} \
+//     <br> Color depth: ${screen.colorDepth} \
+//     <br> Color resolution: ${screen.pixelDepth}`;
 pes.setAttribute("id", "pes");
 pestyle.position = "absolute";
 pestyle.top = (window.screen.availHeight/2).toString();
