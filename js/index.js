@@ -50,7 +50,7 @@ userloginstyle.textTransform = 'capitalize';
 userloginstyle.backgroundColor = '#fff';
 userloginstyle.color = '#000';
 userloginstyle.textAlign = 'center';
-userloginstyle.addEventListener("click", funtion(){
+userlogin.addEventListener("click", funtion(){
     window.location.href = "/login";
 });
 userloginstyle.fontSize = '300%';
