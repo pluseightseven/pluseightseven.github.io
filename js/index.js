@@ -3,6 +3,31 @@ docel.style.backgroundColor = "#000";
 // docel.textContent = "welcome to +87";
 docel.style.color = "#fff";
 
+const doche = document.createElement('head');
+docel.appendChild(doche);
+
+const docme = document.createElement('meta');
+docme.setAttribute("charset", "utf-8");
+doche.appendChild(docme);
+
+const docmet = document.createElement('meta');
+docmet.setAttribute("name", "viewport");
+docmet.setAttribute("content", "width=device-width, inital-scale=1");
+doche.appendChild(docmet);
+
+const docti = document.createElement('title');
+docti.textContent = '+87 &midday; Plus Eight Seven';
+doche.appendChild(docti);
+
+const docbo = document.createElement('body');
+docel.appendChild(docbo);
+
+const docma = document.createElement("main");
+docbo.appendChild(docma)
+
+const docdi = document.createElement("div");
+docma.appendChild(docdi);
+
 // tab title
 const pestabtitle = document.querySelector('title');
 pestabtitle.textContent = "+87 &middot; Plus Eight Seven";
