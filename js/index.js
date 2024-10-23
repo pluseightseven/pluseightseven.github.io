@@ -13,8 +13,8 @@ docma.setAttribute("height", screen.availHeight);
 document.body.appendChild(docma)
 
 const maidi = document.createElement("div");
-maidi.style.backgroundColor =  "#290260";
-maidi.style.color = "#00aaee";
+// maidi.style.backgroundColor =  "#290260";
+// maidi.style.color = "#00aaee";
 docma.appendChild(maidi);
 
 const maidih1 = document.createElement("h1");
