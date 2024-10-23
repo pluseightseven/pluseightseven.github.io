@@ -1,0 +1,19 @@
+{
+  "name": "pluseightseven.github.io",
+  "version": "1.0.0",
+  "description": "Plus 8 & 7 : +87",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pluseightseven/pluseightseven.github.io.git"
+  },
+  "author": "pluseightseven@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pluseightseven/pluseightseven.github.io/issues"
+  },
+  "homepage": "https://github.com/pluseightseven/pluseightseven.github.io#readme"
+}
