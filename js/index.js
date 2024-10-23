@@ -55,8 +55,9 @@ userlogin.setAttribute('id', 'userlogin-div');
 userlogin.textContent = 'login';
 const userloginstyle = userlogin.style;
 userloginstyle.textTransform = 'capitalize';
-userloginstyle.backgroundColor = '#ffffff26';
-userloginstyle.color = '#000000';
+userloginstyle.backgroundColor = "#000";
+userloginstyle.color = "#fff";
+userloginstyle.borderRadius = "2em";
 userloginstyle.textAlign = 'center';
 userlogin.addEventListener("click", function() {
     window.location.href = "/login";
