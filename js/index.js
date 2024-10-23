@@ -26,7 +26,7 @@ plus87.style.left = "50px";
 // plus87.style.backgroundColor = "#000";
 plus87.style.color = "#afaf00";
 plus87.style.textShadow = "0 0 2.6em #afaf0029";
-plus87.style.boxShadow = "inset 0 0 2.6em 0 #f1f1f126";
+plus87.style.boxShadow = "inset 0 0 0.26em 0 #f1f1f126, offset 0 0 2.6em #f1f1f126";
 plus87.style.fontSize = "600%";
 plus87.style.borderRadius = "50%";
 document.body.appendChild(plus87);
