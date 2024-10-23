@@ -26,6 +26,7 @@ const pesmain = document.createElement('main');
 const pesmainstyle = pesmain.style;
 pesmainstyle.width = "100%";
 pesmainstyle.height = "100%";
+pesmainstyle.backgroundColor = '#00ff00';
 pesmainstyle.alignSelf = 'center';
 pesmainstyle.justifySelf = "center";
 pesmainstyle.alignContent = "center";
