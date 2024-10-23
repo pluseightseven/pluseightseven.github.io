@@ -12,8 +12,8 @@ const docti = document.querySelector('title');
 docti.textContent = '+87 : Plus Eight Seven';
 
 const docma = document.createElement("main");
-docma.setAttribute("width", "100%");
-docma.setAttribute("height", "100%");
+docma.setAttribute("width", screen.availWidth);
+docma.setAttribute("height", screen.availHeight);
 docma.style.display = "flex";
 docma.style.alignItems = "center";
 docma.style.justifyContent = "center";
