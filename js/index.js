@@ -1,6 +1,6 @@
-const plus87 = document.createElement("body");
+const plus87 = document.createElement("main");
 plus87.textContent = "+87";
-document.documentElement.appendChild(plus87);
+document.body.appendChild(plus87);
 
 document.body.setAttribute("width", screen.availWidth);
 document.body.setAttribute("height", screen.availHeight);
