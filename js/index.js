@@ -25,12 +25,15 @@ plus87.style.top = "50px";
 plus87.style.left = "50px";
 // plus87.style.backgroundColor = "#000";
 plus87.style.color = "#290260";
-plus87.style.textShadow = "0 0 2.6";
-plus87.style.boxShadow = "inset 0 0 2.6 0";
-plus87.style.fontSize = "300%";
+plus87.style.textShadow = "0 0 2.6em";
+plus87.style.boxShadow = "inset 0 0 2.6em 0";
+plus87.style.fontSize = "600%";
 document.body.appendChild(plus87);
 
-const sectionp87 = document.createElement("section");
-sectionp87.setAttribute("max-width", "600px");
+const popeye = document.createElement("input");
+popeye.setAttribute("width", "600px");
+popeye.style.postion = 'absolute';
+popeye.style.top = "100px";
+popeye.style.right = "100px";
 
-plus87.appendChild(sectionp87);
+plus87.appendChild(popeye);
