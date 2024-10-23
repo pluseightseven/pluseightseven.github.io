@@ -117,12 +117,10 @@ pesmain.appendChild(usersignup);
 
 
 class NoMadDiv extends HTMLDivElement {
-    constructor() {
-        console.log('div element');
-    }
+
 }
 
-const div1 = new NoMadDiv();
+const div1 = NoMadDiv;
 div1.setAttributeNS("applydefaults", function() {
     div1.style.background = "transparent";
     div1.style.color = "#fff";
