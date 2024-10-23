@@ -9,9 +9,10 @@ screenstyle.setAttribute("media", "screen");
 document.head.appendChild(screenstyle);
 
 //body
-document.body.backgroundColor = "#000";
-document.body.margin = 0;
-document.body.style.fontFamily = "Helvetica Neue, Helvetica, Arial, Sans-serif";
+const pesbody = document.querySelctor("body");
+pesbody.style.backgroundColor = "#000";
+pesbody.margin = 0;
+pesbody.style.fontFamily = "Helvetica Neue, Helvetica, Arial, Sans-serif";
 
 // .container
 const pescontainer = document.createElement('div')
