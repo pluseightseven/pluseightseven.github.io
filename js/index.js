@@ -19,7 +19,7 @@ plus87.setAttribute("height", screen.availHeight);
 // plus87.style.alignItems = "center";
 // plus87.style.justifyContent = "center";
 plus87.style.margin = 0;
-plus87.style.padding = 0;
+plus87.style.padding = "26px";
 plus87.style.position = "absolute";
 plus87.style.top = "50px";
 plus87.style.left = "50px";
