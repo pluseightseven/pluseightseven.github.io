@@ -24,7 +24,7 @@ pesbodystyle.overflow = 'hidden';
 
 const pesmain = document.createElement('main');
 const pesmainstyle = pesmain.style;
-pesmainstyle.position = "relative";
+pesmainstyle.position = "absolute";
 pesmainstyle.width = "100%";
 pesmainstyle.height = "100%";
 pesmainstyle.backgroundColor = '#00ff00';
