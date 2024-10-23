@@ -37,22 +37,26 @@ pesbody.appendChild(pesmain);
 
 const pes = document.createElement("h1");
 const pestyle = pes.style;
-pes.setAttribute("id", "pes");
-pes.addEventListener("mouseover", function(){
-    pes.style.cursor = "pointer";
-});
-pes.addEventListener("click", function(){
-    window.location.href = "/";
-});
-pes.style.position = "absolute";
 pes.textContent = "+87";
+pes.setAttribute("id", "pes");
+pestyle.position = "absolute";
 pestyle.fontFamily = 'Noto Sans';
 pestyle.fontSize = "875%";
 pestyle.color = '#002611';
 pestyle.accentColor = '#00261126';
 pestyle.alignSelf = "center";
 pestyle.justifySelf = "center";
-
+pes.addEventListener("mouseover", function(){
+    pes.style.cursor = "pointer";
+    pestyle.boxShadow = "inset 0 0 0.26em 0 #fff";
+});
+pes.addEventListener("mouseout", function(){
+    pestyle.boxShadow = "none";
+});
+pes.addEventListener("click", function(){
+    window.location.href = "/";
+    
+});
 pesmain.appendChild(pes);
 
 const userlogin = document.createElement('div');
