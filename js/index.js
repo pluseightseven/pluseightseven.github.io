@@ -61,9 +61,6 @@ userloginstyle.textAlign = 'center';
 userlogin.addEventListener("click", function() {
     window.location.href = "/login";
 });
-userlogin.addEventListener("mouseover", function() {
-    window.location.href = "/signup";
-})
 userloginstyle.fontSize = '300%';
 userloginstyle.width = "-webkit-fill-available";
 userloginstyle.marginBottom = "0.26%";
