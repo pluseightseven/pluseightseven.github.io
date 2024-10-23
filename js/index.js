@@ -5,7 +5,7 @@ export const baseURI = document.baseURI;
 
 const pestitle = document.querySelector("title");
 pestitle.textContent = "+87";
-pestitle.style.fontFamily = 'ANTON';
+pestitle.style.fontFamily = 'poppins';
 
 const pesbody = document.body;
 const pesbodystyle = pesbody.style;
@@ -79,4 +79,7 @@ usersignupstyle.fontSize = '300%';
 usersignupstyle.width = '-webkit-fill-available';
 usersignupstyle.marginTop = '0.26%';
 // usersignupstyle.
+usersignup.addEventListener("click", function() {
+    window.location.href = "/login";
+});
 pesmain.appendChild(usersignup);
