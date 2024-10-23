@@ -65,7 +65,7 @@ userlogin.addEventListener("mouseover", function() {
     userloginstyle.cursor = "pointer";
 })
 userloginstyle.fontSize = '300%';
-userloginstyle.width = "-webkit-fill-available";
+userloginstyle.width = "400px";
 userloginstyle.marginBottom = "0.26%";
 // userloginstyle.
 pesmain.appendChild(userlogin);
@@ -79,7 +79,7 @@ usersignupstyle.backgroundColor = '#ffffff26';
 usersignupstyle.color = '#000000';
 usersignupstyle.textAlign = 'center';
 usersignupstyle.fontSize = '300%';
-usersignupstyle.width = '-webkit-fill-available';
+usersignupstyle.width = '400px';
 usersignupstyle.marginTop = '0.26%';
 // usersignupstyle.
 usersignup.addEventListener("click", function() {
