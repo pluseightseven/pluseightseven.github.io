@@ -13,8 +13,8 @@ const docdi = document.createElement("div");
 docma.appendChild(docdi);
 
 // tab title
-const pestabtitle = document.querySelector('title');
-pestabtitle.textContent = "+87 &middot; Plus Eight Seven";
+// const pestabtitle = document.querySelector('title');
+// pestabtitle.textContent = "+87 : Plus Eight Seven";
 
 // div elements
 const divelems = document.querySelectorAll("div");
