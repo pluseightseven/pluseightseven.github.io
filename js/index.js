@@ -24,6 +24,7 @@ docma.style.alignItems = "center";
 docma.style.justifyContent = "center";
 docma.style.flexDirection = "column";
 docma.style.flexBasis = "auto";
+docma.style.fontSize = "300%";
 document.body.appendChild(docma);
 
 const maidi = document.createElement("div");
