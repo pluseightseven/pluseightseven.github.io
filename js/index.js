@@ -4,7 +4,7 @@ docel.textContent = "welcome to +87";
 docel.style.color = "#fff";
 
 // tab title
-const pestabtitle = document.querySelctor('title');
+const pestabtitle = document.querySelector('title');
 pestabtitle.textContent = "+87 &middot; Plus Eight Seven";
 
 // div elements
