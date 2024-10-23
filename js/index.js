@@ -24,7 +24,7 @@ pesbodystyle.color = "#fff";
 
 const pesmain = document.createElement('main');
 const pesmainstyle = pesmain.style;
-pesmainstyle.position = "absolute";
+pesmainstyle.position = "relative";
 // pesmainstyle.width = "100%";
 // pesmainstyle.height = "100%";
 // pesmainstyle.backgroundColor = '#00ff00';
