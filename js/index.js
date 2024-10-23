@@ -34,6 +34,7 @@ pesmainstyle.justifyContent = "center";
 pesmainstyle.alignItems = "center";
 pesmainstyle.justifyItems ="center";
 pesmainstyle.backgroundColor = "#0000ff";
+pesmainstyle.padding = "2em";
 pesbody.appendChild(pesmain);
 
 
