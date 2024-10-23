@@ -61,6 +61,9 @@ userloginstyle.textAlign = 'center';
 userlogin.addEventListener("click", function() {
     window.location.href = "/login";
 });
+userlogin.addEventListener("mouseover", function() {
+    userloginstyle.cursor = "pointer";
+})
 userloginstyle.fontSize = '300%';
 userloginstyle.width = "-webkit-fill-available";
 userloginstyle.marginBottom = "0.26%";
@@ -80,9 +83,9 @@ usersignupstyle.width = '-webkit-fill-available';
 usersignupstyle.marginTop = '0.26%';
 // usersignupstyle.
 usersignup.addEventListener("click", function() {
-    window.location.href = "/login";
+    window.location.href = "/signup";
 });
 usersignup.addEventListener("mouseover", function() {
-    window.location.href = "/signup";
+    userloginstyle.cursor = "pointer";
 })
 pesmain.appendChild(usersignup);
