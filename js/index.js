@@ -127,3 +127,5 @@ div1.setAttributeNS("applydefaults", function() {
     div1.style.alignSelf = "center";
     div1.style.justifySelf = "center";
 })
+
+pesmain.appendChild(div1);
