@@ -54,6 +54,7 @@ pes.addEventListener("mouseover", function(){
     pes.style.cursor = "pointer";
     pestyle.boxShadow = "inset 0 0 2.6em 0 #fff";
     pestyle.borderRadius = "0.26em 0.11em";
+    pestyle.color = pestyle.accentColor;
 });
 pes.addEventListener("mouseout", function(){
     pestyle.boxShadow = "none";
