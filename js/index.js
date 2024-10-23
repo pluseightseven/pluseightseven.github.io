@@ -13,6 +13,11 @@ const docma = document.createElement("main");
 document.body.appendChild(docma)
 
 const maidi = document.createElement("div");
+maidi.style =  {
+    "backgroundColor" : "#290260",
+    "color" : "#00aaee"
+
+}
 docma.appendChild(maidi);
 
 const maidih1 = document.createElement("h1");
