@@ -116,7 +116,7 @@ pesmain.appendChild(usersignup);
 
 class NoMadDiv extends HTMLDivElement {
     constructor() {
-        
+        console.log('div element');
     }
 }
 
