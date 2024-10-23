@@ -1,7 +1,8 @@
 document.body.setAttribute("width", screen.availWidth);
 document.body.setAttribute("height", screen.availHeight);
-document.body.setAttribute("background-color", "#000290");
-document.body.setAttribute("color", "#00aaee");
+document.body.style.backgroundColor = "#290000";
+document.body.style.color = "#002600";
+document.body.style.accentColor = "#29260050";
 
 const docti = document.querySelector('title');
 docti.textContent = '+87 : Plus Eight Seven';
@@ -12,8 +13,8 @@ docma.setAttribute("height", screen.availHeight);
 document.body.appendChild(docma)
 
 const maidi = document.createElement("div");
-maidi.setAttribute("background-color", "#290260");
-maidi.setAttribute("color", "#00aaee");
+maidi.style.backgroundColor =  "#290260";
+maidi.style.color = "#00aaee";
 docma.appendChild(maidi);
 
 const maidih1 = document.createElement("h1");
