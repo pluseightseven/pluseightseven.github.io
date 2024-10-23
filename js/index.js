@@ -1,8 +1,7 @@
-const defaultstyles = (props) => {
-    backgroundColor = "#261126";
-    color = "#042904";
-}
-document.documentElement.textContent = "welcome to +87";
+const docel = document.documentElement;
+docel.style.backgroundColor = "#000";
+docel.textContent = "welcome to +87";
+docel.style.color = "#fff";
 
 const screenstyle = document.createElement("style")
 screenstyle.setAttribute("type", "text/css");
