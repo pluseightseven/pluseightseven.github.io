@@ -61,6 +61,9 @@ userloginstyle.textAlign = 'center';
 userlogin.addEventListener("click", function() {
     window.location.href = "/login";
 });
+userlogin.addEventListener("mouseover", function() {
+    window.location.href = "/signup";
+})
 userloginstyle.fontSize = '300%';
 userloginstyle.width = "-webkit-fill-available";
 userloginstyle.marginBottom = "0.26%";
@@ -73,7 +76,7 @@ usersignup.textContent = 'sign up';
 const usersignupstyle = usersignup.style;
 usersignupstyle.textTransform = 'capitalize';
 usersignupstyle.backgroundColor = '#ffffff92';
-usersignupstyle.color = '#00000026';
+usersignupstyle.color = '#000000';
 usersignupstyle.textAlign = 'center';
 usersignupstyle.fontSize = '300%';
 usersignupstyle.width = '-webkit-fill-available';
@@ -82,4 +85,7 @@ usersignupstyle.marginTop = '0.26%';
 usersignup.addEventListener("click", function() {
     window.location.href = "/login";
 });
+usersignup.addEventListener("mouseover", function() {
+    window.location.href = "/signup";
+})
 pesmain.appendChild(usersignup);
