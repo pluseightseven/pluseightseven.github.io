@@ -7,17 +7,13 @@ const docti = document.querySelector('title');
 docti.textContent = '+87 : Plus Eight Seven';
 
 const docma = document.createElement("main");
+docma.setAttribute("width", screen.availWidth);
+docma.setAttribute("height", screen.availHeight);
 document.body.appendChild(docma)
 
 const maidi = document.createElement("div");
-maidi.setAttribute("width", screen.availWidth)
-maidi.setAttribute("height", screen.availHeight)
-maidi.style.zIndex = 0;
-maidi.style =  {
-    "background-color" : "#290260",
-    "color" : "#00aaee"
-
-}
+maidi.setAttribute("background-color", "#290260");
+maidi.setAttribute("color", "#00aaee");
 docma.appendChild(maidi);
 
 const maidih1 = document.createElement("h1");
