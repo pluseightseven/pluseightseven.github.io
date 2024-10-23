@@ -1,18 +1,23 @@
-const defaultstyles = (props) => {
-    backgroundColor = "#261126";
-    color = "#042904";
-}
+document.documentElement.backgroundColor = "#000";
 document.documentElement.textContent = "welcome to +87";
-
-const screenstyle = document.createElement("style")
-screenstyle.setAttribute("type", "text/css");
-screenstyle.setAttribute("media", "screen");
-document.head.appendChild(screenstyle);
 
 //body
 document.body.backgroundColor = "#000";
 document.body.margin = 0;
 document.body.style.fontFamily = "Helvetica Neue, Helvetica, Arial, Sans-serif";
+
+// div elements
+const divelems = document.querySelectorAll("div");
+divelems.forEach(element => {
+    element.style.backgroundColor = "#000";
+})
+
+// style screen mdeia
+const screenstyle = document.createElement("style")
+screenstyle.setAttribute("type", "text/css");
+screenstyle.setAttribute("media", "screen");
+document.head.appendChild(screenstyle);
+
 
 // .container
 const pescontainer = document.createElement('div')
@@ -34,40 +39,34 @@ ahoverlinks.forEach(element => {
     element.style.textDecoration = "underline";
 });
 
-/*
-
-            a {
-                color: #4183c4;
-                text-decoration: none;
-            }
-
-            a:hover {
-                text-decoration: underline;
-            }
-
-            h1 {
-                width: 800px;
-                position: relative;
-                left: -100px;
-                letter-spacing: -1px;
-                line-height: 60px;
-                font-size: 60px;
-                font-weight: 100;
-                margin: 0px 0 50px 0;
-                text-shadow: 0 1px 0 #fff;
-            }
-
-            p {
-                color: rgba(0, 0, 0, 0.5);
-                margin: 20px 0;
-                line-height: 1.6;
-            }
-
-            ul {
-                list-style: none;
-                margin: 25px 0;
-                padding: 0;
-            }
+screenstyle.textContent = `a {
+                                color: #4183c4;
+                                text-decoration: none;
+                            }
+                            a:hover {
+                                text-decoration: underline;
+                            }
+                            h1 {
+                                width: 800px;
+                                position: relative;
+                                left: -100px;
+                                letter-spacing: -1px;
+                                line-height: 60px;
+                                font-size: 60px;
+                                font-weight: 100;
+                                margin: 0px 0 50px 0;
+                                text-shadow: 0 1px 0 #fff;
+                            }
+                            p {
+                                color: rgba(0, 0, 0, 0.5);
+                                margin: 20px 0;
+                                line-height: 1.6;
+                            }
+                            ul {
+                                list-style: none;
+                                margin: 25px 0;
+                                padding: 0;
+                            }
 
             li {
                 display: table-cell;
@@ -105,7 +104,8 @@ ahoverlinks.forEach(element => {
                 font-size: 14px;
                 margin: 0 10px;
             }
-        </style>
+                `;
+/*
         <div class="container">
             <h1>404</h1>
             <p>
