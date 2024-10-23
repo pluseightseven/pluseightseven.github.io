@@ -68,11 +68,11 @@ ahoverlinks.forEach(element => {
     element.style.textDecoration = "underline";
 });
 
+// body{
+//     background-color: #000;
+//     color: #fff;
+// }
 screenstyle.textContent = `
-body{
-    background-color: #000;
-    color: #fff;
-}
 a {
     color: #4183c4;
     text-decoration: none;
