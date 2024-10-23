@@ -71,46 +71,54 @@ userloginstyle.position = "absolute";
 userloginstyle.textTransform = 'capitalize';
 userloginstyle.backgroundColor = "#000";
 userloginstyle.color = "#fff";
+userloginstyle.border = "solid 8% #fff";
 userloginstyle.borderRadius = "2em";
-userloginstyle.textAlign = 'center';
+// userloginstyle.textAlign = 'center';
+userloginstyle.fontSize = '300%';
+userloginstyle.width = "400px";
+userloginstyle.marginBottom = "0.26%";
+// userloginstyle.
 userlogin.addEventListener("click", function() {
     window.location.href = "/login";
 });
 userlogin.addEventListener("mouseover", function() {
     userloginstyle.color = "#000";
     userloginstyle.backgroundColor = "#fff";
+    userloginstyle.border = "solid 8% #000";
     userloginstyle.borderRadius = "2em";
     userloginstyle.cursor = "pointer";
 })
 userlogin.addEventListener("mouseout", function() {
     userloginstyle.backgroundColor = "#000";
     userloginstyle.color = "#fff";
-    userloginstyle.border = "solid 8px #fff";
+    userloginstyle.border = "solid 8% #fff";
     userloginstyle.borderRadius = "2em";
 })
-userloginstyle.fontSize = '300%';
-userloginstyle.width = "400px";
-userloginstyle.marginBottom = "0.26%";
-// userloginstyle.
 pesmain.appendChild(userlogin);
 
-const usersignup = userlogin.cloneNode();
+const usersignup = document.createElement("div")
+const usersignupstyle = usersignup.style;
 usersignup.textContent = 'sign up';
+usersignup.setAttribute('id', 'usersignup-div');
+usersignupstyle.position = "absolute";
+usersignupstyle.textTransform = 'capitalize';
+usersignupstyle.backgroundColor = '#fff';
+usersignupstyle.color = '#000';
+usersignupstyle.textAlign = 'center';
+usersignupstyle.fontSize = '300%';
+usersignupstyle.width = '400px';
+usersignupstyle.marginTop = '0.26%';
+usersignupstyle.border = "solid 8% transparent"
+// usersignupstyle.
 usersignup.addEventListener("click", function() {
     window.location.href = "/signup";
 });
-// const usersignupstyle = usersignup.style;
-// usersignup.setAttribute('id', 'usersignup-div');
-// usersignupstyle.position = "absolute";
-// usersignupstyle.textTransform = 'capitalize';
-// usersignupstyle.backgroundColor = '#ffffff26';
-// usersignupstyle.color = '#000000';
-// usersignupstyle.textAlign = 'center';
-// usersignupstyle.fontSize = '300%';
-// usersignupstyle.width = '400px';
-// usersignupstyle.marginTop = '0.26%';
-// // usersignupstyle.
-// usersignup.addEventListener("mouseover", function() {
-//     usersignupstyle.cursor = "pointer";
-// })
+usersignup.addEventListener("mouseover", function() {
+    usersignupstyle.cursor = "pointer";
+    usersignupstyle.border = "solid 8% #fff"
+})
+usersignup.addEventListener("mouseout", function() {
+    usersignupstyle.cursor = "pointer";
+    usersignupstyle.border = "solid 8% transparent"
+})
 pesmain.appendChild(usersignup);
