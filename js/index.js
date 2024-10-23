@@ -23,7 +23,7 @@ divelems.forEach(element => {
 })
 
 //body
-const pesbody = document.querySelctor("body");
+const pesbody = document.querySelector("body");
 pesbody.style.backgroundColor = "#000";
 pesbody.margin = 0;
 pesbody.style.fontFamily = "Helvetica Neue, Helvetica, Arial, Sans-serif";
