@@ -12,6 +12,11 @@ docma.setAttribute("width", screen.availWidth);
 docma.setAttribute("height", screen.availHeight);
 docma.style.backgroundColor = "#000";
 docma.style.color = "#290260";
+docma.style.display = "flex";
+docma.style.alignItems = "center";
+docma.style.justifyContent = "center";
+docma.style.flexDirection = "column";
+docma.style.flexBasis = "auto";
 document.body.appendChild(docma);
 
 const maidi = document.createElement("div");
