@@ -60,9 +60,10 @@ pes.addEventListener("click", function(){
 pesmain.appendChild(pes);
 
 const userlogin = document.createElement('div');
-userlogin.setAttribute('id', 'userlogin-div');
-userlogin.textContent = 'login';
 const userloginstyle = userlogin.style;
+userlogin.textContent = 'login';
+userlogin.setAttribute('id', 'userlogin-div');
+userloginstyle.position = "absolute";
 userloginstyle.textTransform = 'capitalize';
 userloginstyle.backgroundColor = "#000";
 userloginstyle.color = "#fff";
@@ -90,9 +91,10 @@ userloginstyle.marginBottom = "0.26%";
 pesmain.appendChild(userlogin);
 
 const usersignup = document.createElement('div');
-usersignup.setAttribute('id', 'usersignup-div');
-usersignup.textContent = 'sign up';
 const usersignupstyle = usersignup.style;
+usersignup.textContent = 'sign up';
+usersignup.setAttribute('id', 'usersignup-div');
+usersignupstyle.position = "absolute";
 usersignupstyle.textTransform = 'capitalize';
 usersignupstyle.backgroundColor = '#ffffff26';
 usersignupstyle.color = '#000000';
@@ -108,3 +110,20 @@ usersignup.addEventListener("mouseover", function() {
     usersignupstyle.cursor = "pointer";
 })
 pesmain.appendChild(usersignup);
+
+
+
+class NoMadDiv extends HTMLDivElement {
+    constructor() {
+        super();
+    }
+}
+
+const div1 = new NoMadDiv();
+div1.setAttributeNS("applydefaults", function() {
+    div1.style.background = "transparent";
+    div1.style.color = "#fff";
+    div1.style.accentColor = "#ffffff26";
+    div1.style.alignSelf = "center";
+    div1.style.justifySelf = "center";
+})
