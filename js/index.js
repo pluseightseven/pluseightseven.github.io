@@ -46,6 +46,8 @@ const pestyle = pes.style;
 pes.textContent = "+87";
 pes.setAttribute("id", "pes");
 pestyle.position = "absolute";
+pestyle.top = "50";
+pestyle.left = "50";
 pestyle.fontFamily = 'Noto Sans';
 pestyle.fontSize = "875%";
 pestyle.color = '#fff';
