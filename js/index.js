@@ -16,8 +16,8 @@ document.body.appendChild(pesheader);
 
 
 const docma = document.createElement("main");
-docma.setAttribute("width", screen.availWidth);
-docma.setAttribute("height", screen.availHeight);
+docma.setAttribute("width", "100%");
+docma.setAttribute("height", "100%");
 docma.style.margin = 0;
 docma.style.padding = 0;
 docma.style.backgroundColor = "#000";
