@@ -33,7 +33,7 @@ plus87.style.borderRadius = "50%";
 document.body.appendChild(plus87);
 
 const popeye = document.createElement("input");
-popeye.setAttribute("width", "600px");
+// popeye.setAttribute("width", "600px");
 popeye.style.postion = 'absolute';
 popeye.style.top = "100px";
 popeye.style.right = "100px";
