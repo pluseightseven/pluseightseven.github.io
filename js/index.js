@@ -1,6 +1,5 @@
 const docel = document.documentElement;
 docel.style.backgroundColor = "#000";
-// docel.textContent = "welcome to +87";
 docel.style.color = "#fff";
 
 const docti = document.querySelector('title');
@@ -9,8 +8,12 @@ docti.textContent = '+87 : Plus Eight Seven';
 const docma = document.createElement("main");
 document.body.appendChild(docma)
 
-const docdi = document.createElement("div");
-docma.appendChild(docdi);
+const maidi = document.createElement("div");
+docma.appendChild(maidi);
+
+const maidih1 = document.createElement("h1");
+maidih1.textContent = "+87";
+maidi.appendChild(maidih1);
 
 // tab title
 // const pestabtitle = document.querySelector('title');
