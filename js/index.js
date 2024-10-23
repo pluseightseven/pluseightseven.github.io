@@ -1,9 +1,8 @@
 document.body.setAttribute("width", screen.availWidth);
 document.body.setAttribute("height", screen.availHeight);
 document.body.style =  {
-    "backgroundColor" : "#000290",
+    "background-color" : "#000290",
     "color" : "#00aaee"
-
 }
 
 const docti = document.querySelector('title');
@@ -17,7 +16,7 @@ maidi.setAttribute("width", screen.availWidth)
 maidi.setAttribute("height", screen.availHeight)
 maidi.style.zIndex = 0;
 maidi.style =  {
-    "backgroundColor" : "#290260",
+    "background-color" : "#290260",
     "color" : "#00aaee"
 
 }
