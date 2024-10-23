@@ -13,7 +13,8 @@ divelems.forEach(element => {
 const screenstyle = document.createElement("style")
 screenstyle.setAttribute("type", "text/css");
 screenstyle.setAttribute("media", "screen");
-document.head.appendChild(screenstyle);
+const peshead = document.querySelector("head");
+peshead.appendChild(screenstyle);
 
 //body
 const pesbody = document.querySelctor("body");
