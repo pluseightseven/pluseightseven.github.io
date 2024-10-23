@@ -32,6 +32,7 @@ pesmainstyle.alignContent = "center";
 pesmainstyle.justifyContent = "center";
 pesmainstyle.alignItems = "center";
 pesmainstyle.justifyItems ="center";
+pesmainstyle.backgroundColor = "#0000ff";
 pesbody.appendChild(pesmain);
 
 
