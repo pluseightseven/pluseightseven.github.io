@@ -1,9 +1,7 @@
 document.body.setAttribute("width", screen.availWidth);
 document.body.setAttribute("height", screen.availHeight);
-document.body.style =  {
-    "background-color" : "#000290",
-    "color" : "#00aaee"
-}
+document.body.setAttribute("background-color", "#000290");
+document.body.setAttribute("color", "#00aaee");
 
 const docti = document.querySelector('title');
 docti.textContent = '+87 : Plus Eight Seven';
