@@ -62,6 +62,9 @@ userlogin.addEventListener("click", function() {
     window.location.href = "/login";
 });
 userlogin.addEventListener("mouseover", function() {
+    userloginstyle.color = "#000";
+    userloginstyle.backgroundColor = "#fff";
+    userloginstyle.borderRadius = "2em";
     userloginstyle.cursor = "pointer";
 })
 userlogin.addEventListener("mouseout", function() {
