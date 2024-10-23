@@ -31,6 +31,8 @@ pesfooter.setAttribute("height", "100%");
 document.body.appendChild(pesfooter);
 
 const maidi = document.createElement("div");
+maidi.setAttribute("max-width", "600px");
+
 // maidi.style.backgroundColor =  "#290260";
 // maidi.style.color = "#00aaee";
 docma.appendChild(maidi);
