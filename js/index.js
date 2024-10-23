@@ -6,6 +6,8 @@ document.body.style.accentColor = "#29260050";
 document.body.style.display = "flex";
 document.body.style.alignItems = "center";
 document.body.style.justifyContent = "center";
+document.body.style.margin = 0;
+document.body.style.padding = 0;
 
 const docti = document.querySelector('title');
 docti.textContent = '+87 : Plus Eight Seven';
@@ -13,6 +15,8 @@ docti.textContent = '+87 : Plus Eight Seven';
 const docma = document.createElement("main");
 docma.setAttribute("width", screen.availWidth);
 docma.setAttribute("height", screen.availHeight);
+docma.style.margin = 0;
+docma.style.padding = 0;
 docma.style.backgroundColor = "#000";
 docma.style.color = "#290260";
 docma.style.display = "flex";
