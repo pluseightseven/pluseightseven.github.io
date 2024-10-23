@@ -107,13 +107,14 @@ usersignup.textContent = 'sign up';
 usersignup.setAttribute('id', 'usersignup-div');
 usersignupstyle.position = "absolute";
 usersignupstyle.textTransform = 'capitalize';
-usersignupstyle.backgroundColor = '#fff';
-usersignupstyle.color = '#000';
+usersignupstyle.backgroundColor = '#000';
+usersignupstyle.color = '#fff';
 usersignupstyle.textAlign = 'center';
 usersignupstyle.fontSize = '300%';
 usersignupstyle.width = '400px';
 usersignupstyle.marginTop = '0.26%';
 usersignupstyle.border = "solid 8% transparent"
+usersignupstyle.borderRadius = "2em";
 // usersignupstyle.
 usersignup.addEventListener("click", function() {
     window.location.href = "/signup";
