@@ -10,6 +10,9 @@
 //     document.body.style.justifyContent = "center";
 // }
 // completebodystyles();
+const tabtitlep87 = document.querySelector('title');
+tabtitlep87.textContent = '+87 # Plus Eight Seven';
+
 export const stylescreen487 = document.createElement('style');
 stylescreen487.setAttribute("type", "text/css");
 stylescreen487.setAttribute("media", "screen");
@@ -46,13 +49,6 @@ h1, h2, h3, h4, h5, h6 {
 `;
 document.body.appendChild(stylescreen487);
 
-const loremipsumtext = document.createElement("h3");
-loremipsumtext.textContent = new String(`Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aperiam eligendi sunt, asperiores accusamus voluptates blanditiis numquam voluptatem, id, odit magni! Perferendis voluptatibus quo quod fuga, magnam consequatur nam veritatis!`);
-document.body.appendChild(loremipsumtext);
-
-const tabtitlep87 = document.querySelector('title');
-tabtitlep87.textContent = '+87 # Plus Eight Seven';
-
 const plus87 = document.createElement("div");
 plus87.textContent = "+87";
 plus87.setAttribute("width", screen.availWidth);
@@ -73,6 +69,10 @@ plus87.style.transition = "box-shadow 0.5s ease";
 plus87.style.fontSize = "600%";
 plus87.style.borderRadius = "50%";
 document.body.appendChild(plus87);
+
+const loremipsumtext = document.createElement("h3");
+loremipsumtext.textContent = new String(`Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aperiam eligendi sunt, asperiores accusamus voluptates blanditiis numquam voluptatem, id, odit magni! Perferendis voluptatibus quo quod fuga, magnam consequatur nam veritatis!`);
+document.body.appendChild(loremipsumtext);
 
 const popeye = document.createElement("input");
 // popeye.setAttribute("width", "600px");
