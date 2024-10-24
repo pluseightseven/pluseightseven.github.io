@@ -65,6 +65,9 @@ document.body.appendChild(stylescreen487);
 if(document.body.style.width !== screen.availWidth){
     document.body.style.width = screen.availWidth; 
 }
+if(document.body.style.height !== screen.availHeight){
+    document.body.style.height = screen.availHeight; 
+}
 const plus87 = document.createElement("div");
 plus87.textContent = "+87";
 plus87.setAttribute("width", "100%");
@@ -78,9 +81,9 @@ plus87.style.position = "absolute";
 plus87.style.top = innerHeight/2;
 plus87.style.left = innerWidth/2;
 plus87.style.background = "transparent";
-plus87.style.color = "#afaf00";
+plus87.style.color = "#002611";
 plus87.style.textShadow = "0 0 2.6em #afaf00";
-plus87.style.boxShadow = "0.11em 0.11em 0.11em #afaf00";
+plus87.style.boxShadow = "inset 0.11em 0.11em 0.11em #002611";
 plus87.style.transition = "box-shadow 0.5s ease";
 plus87.style.fontSize = "600%";
 plus87.style.borderRadius = "50%";
