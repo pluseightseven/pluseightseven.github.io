@@ -67,8 +67,8 @@ if(document.body.style.width !== screen.availWidth){
 }
 const plus87 = document.createElement("div");
 plus87.textContent = "+87";
-plus87.setAttribute("width", screen.availWidth);
-plus87.setAttribute("height", screen.availHeight);
+plus87.setAttribute("width", "100%");
+plus87.setAttribute("height", "100%");
 // plus87.style.display = "flex";
 // plus87.style.alignItems = "center";
 // plus87.style.justifyContent = "center";
