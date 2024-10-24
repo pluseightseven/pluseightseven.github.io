@@ -45,7 +45,16 @@ h1, h2, h3, h4, h5, h6 {
     color: #002611;
     background: transparent;
     width: 100%;
-    height: 100%;}
+    height: 100%;
+}
+p {
+    width: 600px;
+    margin: 1.1em auto;
+    padding: 1.1em auto;
+    color: #26110429;
+    border: solid 0.26em radial-gradient(circle, #26110429, #290000);
+    box-shadow: 0 0 2.6em radial-gradient(circle, #26110429, #290000, #26110429, #290000);
+}
 `;
 document.body.appendChild(stylescreen487);
 
@@ -70,7 +79,7 @@ plus87.style.fontSize = "600%";
 plus87.style.borderRadius = "50%";
 document.body.appendChild(plus87);
 
-const loremipsumtext = document.createElement("h3");
+const loremipsumtext = document.createElement("p");
 loremipsumtext.textContent = new String(`Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aperiam eligendi sunt, asperiores accusamus voluptates blanditiis numquam voluptatem, id, odit magni! Perferendis voluptatibus quo quod fuga, magnam consequatur nam veritatis!`);
 document.body.appendChild(loremipsumtext);
 
