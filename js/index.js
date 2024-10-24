@@ -56,13 +56,15 @@ p {
     width: 600px;
     margin: 1.1em auto;
     padding: 1.1em auto;
-    color: #26110429;
-    border: solid 0.26em radial-gradient(circle, #26110429, #290000);
-    box-shadow: 0 0 2.6em radial-gradient(circle, #26110429, #290000, #26110429, #290000);
+    color: #fff;
+    border: solid 0.26em radial-gradient(circle, #fff, #290000);
+    box-shadow: 0 0 2.6em radial-gradient(circle, #fff, #290000, #fff, #290000);
 }
 `;
 document.body.appendChild(stylescreen487);
-if(document.body.clientWidth !==)
+if(document.body.style.width !== screen.availWidth){
+    document.body.style.width = screen.availWidth; 
+}
 const plus87 = document.createElement("div");
 plus87.textContent = "+87";
 plus87.setAttribute("width", screen.availWidth);
