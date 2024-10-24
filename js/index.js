@@ -23,7 +23,7 @@ stylescreen487.textContent = `
     box-sizing: border-box;
 }
 html, body {
-    background: transparent;
+    background: #00000026;
     box-shadow: inset 0 0 2.6em linear-gradient(#290000, #290260);
     color: #abcdef;
 }
