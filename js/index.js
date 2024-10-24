@@ -1,17 +1,6 @@
-// export function completebodystyles(){
-//     document.body.setAttribute("width", screen.availWidth);
-//     document.body.setAttribute("height", screen.availHeight);
-//     document.body.style.backgroundColor = "#290000";
-//     document.body.style.color = "#002600";
-//     document.body.style.accentColor = "#29260050";
-//     document.body.style.margin = 0;
-//     document.body.style.padding = 0;
-//     document.body.style.alignItems = "center";
-//     document.body.style.justifyContent = "center";
-// }
-// completebodystyles();
 const tabtitlep87 = document.querySelector('title');
-tabtitlep87.textContent = '+87 # Plus Eight Seven';
+tabtitlep87.textContent = ' #### +87 #### ';
+tabtitlep87.style.textAlign ="center";
 
 export const stylescreen487 = document.createElement('style');
 stylescreen487.setAttribute("type", "text/css");
