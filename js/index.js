@@ -8,6 +8,9 @@ document.body.style.padding = 0;
 document.body.style.alignItems = "center";
 document.body.style.justifyContent = "center";
 
+export const screenwidthandheight487 = document.createElement('style');
+document.head.appendChild(screenwidthandheight487);
+
 const tabtitlep87 = document.querySelector('title');
 tabtitlep87.textContent = '+87 # Plus Eight Seven';
 
