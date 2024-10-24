@@ -11,8 +11,39 @@ export function completebodystyles(){
 }
 completebodystyles();
 export const stylescreen487 = document.createElement('style');
-stylescreen487.
-document.head.appendChild(screenwidthandheight487);
+stylescreen487.setAttribute("type", "text/css");
+stylescreen487.setAttribute("media", "screen");
+stylescreen487.textContent = `
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    background-color: #290260;
+    color: #abcdef;
+}
+html, body, main, div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    color: #481a85;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;    
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 300%;
+    font-family: Helvetica Neue, Helvetica Sans, Sans-serif;
+    color: #002611;
+    background: transparent;
+    width: 100%;
+    height: 100%;}
+`;
+document.body.appendChild(screenwidthandheight487);
 
 const loremipsumtext = new String(`Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aperiam eligendi sunt, asperiores accusamus voluptates blanditiis numquam voluptatem, id, odit magni! Perferendis voluptatibus quo quod fuga, magnam consequatur nam veritatis!`);
 document.body.appendChild(loremipsumtext);
