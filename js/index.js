@@ -1,13 +1,15 @@
-document.body.setAttribute("width", screen.availWidth);
-document.body.setAttribute("height", screen.availHeight);
-document.body.style.backgroundColor = "#290000";
-document.body.style.color = "#002600";
-document.body.style.accentColor = "#29260050";
-document.body.style.margin = 0;
-document.body.style.padding = 0;
-document.body.style.alignItems = "center";
-document.body.style.justifyContent = "center";
-
+export function completebodystyles(){
+    document.body.setAttribute("width", screen.availWidth);
+    document.body.setAttribute("height", screen.availHeight);
+    document.body.style.backgroundColor = "#290000";
+    document.body.style.color = "#002600";
+    document.body.style.accentColor = "#29260050";
+    document.body.style.margin = 0;
+    document.body.style.padding = 0;
+    document.body.style.alignItems = "center";
+    document.body.style.justifyContent = "center";
+}
+completebodystyles();
 export const screenwidthandheight487 = document.createElement('style');
 document.head.appendChild(screenwidthandheight487);
 
