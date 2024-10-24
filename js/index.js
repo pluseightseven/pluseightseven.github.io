@@ -23,10 +23,14 @@ stylescreen487.textContent = `
     box-sizing: border-box;
 }
 html, body {
-    background: linear-gradient(to top, #26110429, #290000, #26110429, #290000), 
-        radial-gradient(circle, #26110429, #290000, #26110429, #290000);
+    background: 
+        linear-gradient(to top, #26110429, #290000, #26110429, #290000), 
+        radial-gradient(circle, #26110429, #290000, #26110429, #290000) 
+        norepeat center cover;
     box-shadow: inset 0 0 2.6em linear-gradient(#290000, #290260);
     color: #abcdef;
+    width: 100vw;
+    height: 100vh;
 }
 html, body, main, div {
     display: flex;
@@ -58,7 +62,7 @@ p {
 }
 `;
 document.body.appendChild(stylescreen487);
-
+if(document.body.clientWidth !==)
 const plus87 = document.createElement("div");
 plus87.textContent = "+87";
 plus87.setAttribute("width", screen.availWidth);
