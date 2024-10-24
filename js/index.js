@@ -10,8 +10,12 @@ export function completebodystyles(){
     document.body.style.justifyContent = "center";
 }
 completebodystyles();
-export const screenwidthandheight487 = document.createElement('style');
+export const stylescreen487 = document.createElement('style');
+stylescreen487.
 document.head.appendChild(screenwidthandheight487);
+
+const loremipsumtext = new String(`Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aperiam eligendi sunt, asperiores accusamus voluptates blanditiis numquam voluptatem, id, odit magni! Perferendis voluptatibus quo quod fuga, magnam consequatur nam veritatis!`);
+document.body.appendChild(loremipsumtext);
 
 const tabtitlep87 = document.querySelector('title');
 tabtitlep87.textContent = '+87 # Plus Eight Seven';
