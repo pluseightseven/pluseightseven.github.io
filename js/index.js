@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100%;}
 `;
-document.body.appendChild(screenwidthandheight487);
+document.body.appendChild(stylescreen487);
 
 const loremipsumtext = new String(`Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aperiam eligendi sunt, asperiores accusamus voluptates blanditiis numquam voluptatem, id, odit magni! Perferendis voluptatibus quo quod fuga, magnam consequatur nam veritatis!`);
 document.body.appendChild(loremipsumtext);
