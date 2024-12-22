@@ -1,0 +1,42 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v5.3.0
+        with:
+          python-version: 3.12
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install gunicorn psycopg2-binary
+          pip freeze > requirements.txt
+
+      - name: Collect static files
+        run: |
+          python manage.py collectstatic --noinput
+      
+      - name: Create output directory
+        run: mkdir -p /home/runner/work/pluseightseven.github.io/Nion/static_site
+      
+      - name: Generate static HTML
+        run: |
+          python manage.py distill-local static_site --force
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GHTOKEN_NION }}
+          publish_dir: ./static_site
